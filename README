@@ -1,7 +1,7 @@
 Scala-Hook
 =====================================
 
-A small Scala Play Framework App to handle Git Hooks
+A small Scala Play Framework App to handle Git Hooks and have Continuous Deployment.
 
 Have your server running this web app and setup your Git Hook url in your GitHub Project page.
 
