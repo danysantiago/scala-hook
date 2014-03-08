@@ -2,3 +2,10 @@ Scala-Hook
 =====================================
 
 A small Scala Play Framework App to handle Git Hooks
+
+Have your server running this web app and setup your Git Hook url in your GitHub Project page.
+
+When a Hook is fired and if it was a change in the master branch this web app will execute the 'script.sh' at the root of the project folder. In the script you execute whats necessary to stop, update and restart your main web app.
+
+Remember that Play's default port is 9000, I recommend you change with something along the lines of ' play "run 8080" ' if you are running another play app.
+
